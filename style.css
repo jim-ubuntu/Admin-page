@@ -53,4 +53,18 @@ body{
     border-radius: 15px;
     width: 80%;
 }
+.dash-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+}
 
+.icon-graphics {
+    fill: #f9faec;
+    height: 30px;
+    width: 30px;
+    
+}
