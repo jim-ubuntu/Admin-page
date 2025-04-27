@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Atomic+Age&family=Bungee+Tint&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 body{
     margin:0;
-    width: 100vw;
-    height: 100vh;
+   margin-right: 0;
 }
-
 :root {
     font-family: "Play";
 }
 
 .main-container {
-    height: 100vh;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
@@ -156,10 +156,12 @@ body{
     gap: 5%;
     justify-self: start;
     width: 100%;
+    padding-right: 50px;
 }
 
 .options-container>button{
     height: 2rem;
+    font-weight: 900;
     width: max(5rem, auto);
     background-color: #1992d4;
     color:#f9faec;
@@ -171,17 +173,24 @@ body{
 }
 
 .working-section-bottom {
+    padding-left: 10px;;
     display: grid;
     background-color: #e2e8f0;
     grid-template-columns: 2fr 1fr;
 
 }
-
+ 
 .project-panel {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: repeat(auto-fit, 1fr); */
-    gap: 10px;
+    grid-template-rows: 10% 90%;
+    
+} 
+
+.project-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 20px;
 }
 
 #your-projects {
@@ -189,35 +198,63 @@ body{
 }
 
 .project-card {
-        background-color: #f9faec;
-        justify-content: start;
-        align-content: start;
+    background-color: #ffffff;
+    justify-content: start;
+    align-content: start;
+    width: auto;
+    height: auto;
+    display: grid;
+    box-shadow: -3px 0px 1px teal;  
+    border-radius: .8rem;  
+    padding-left: 5px;
 }
 
 .updates-sidebar {
+    padding-left: 10px;
     grid-column: 2/3;
     display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+    
+.announcements-section {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
 
+.announcements-container{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 2px;
+}
+
+.announcements-card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 80%;
+    padding: 10px;
 }
 
 .trending-section {
-    margin-left: 20%;
-    justify-content: start;
     display: grid;
-    grid-template-rows: repeat(autofit: 1fr;);
+    grid-template-rows: 1fr 9fr;
+    
 }
 
 .trending-items-container {
     display:grid;
-    background-color: #ffffff;
-    width: 80%;
+    grid-template-rows: repeat(autofit, 1fr);
+    gap: 5px;
+    border-radius: 1rem;
 }
 
 .trending-card {
-    
+    background-color: #ffffff;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    padding: 10px;
 }
 
 .trending-section h3 {
     grid-rows: 1/2;
 }
-    

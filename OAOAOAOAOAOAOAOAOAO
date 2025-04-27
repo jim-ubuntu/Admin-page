@@ -1,0 +1,47 @@
+[33mcommit ed162f8d83631fdeb4ebf4a77db9a57f57f9f2d3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sun Apr 27 17:05:57 2025 +0100
+
+    Fleshed out the projects announcements and trending section.
+
+[33mcommit 7597feb37246ac0dfe9e6ad26b79f8835a038e89[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sun Apr 27 16:27:28 2025 +0100
+
+    Completed top panel with profile information and options buttons.
+
+[33mcommit 0a918e670bd53a10f7986429522818ee129b83e0[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sun Apr 27 16:05:07 2025 +0100
+
+     Organised search input section. Put in options section on lower right of top section. PFP and weclome message on lower left.
+
+[33mcommit 75c7e0ce6a8cab16263097fa8b4d83300c8a7826[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sun Apr 27 01:02:04 2025 +0100
+
+    Finished Dashboard Panel. Icon for search bar and background for project panel.
+
+[33mcommit e368ae868ec6a0b5589de3004195218cfce56347[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sat Apr 26 18:59:58 2025 +0100
+
+    Added graphics and styled XML of SVG to match color scheme..
+
+[33mcommit 5232d92da34c3f36a5eb489b4c76e296757494b8[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sat Apr 26 16:03:13 2025 +0100
+
+    Added graphics folder with dashboard graphics.
+
+[33mcommit c9692a118f270c6cdccc798b68615a1566e3b499[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sat Apr 26 13:55:32 2025 +0100
+
+    Began the HTML and CSS barebones of it, laying out main grid structure.
+
+[33mcommit 714c8cdc795926f203748225a1e9871e248b9d90[m
+Author: jim-ubuntu <jimferguson_3@protonmail.com>
+Date:   Sat Apr 26 12:54:31 2025 +0100
+
+    Initialise repo with base files.
