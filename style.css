@@ -94,8 +94,19 @@ body{
     margin-left: 10%;
 }
 
+.user-info-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5% 15% 80%;
+    gap: max(5%, 30px) ;
+}
+
+#profile-pfp {
+    width: 40px;
+    height: 40px;
+}
+
 .upper-half-top>* {
-    border: solid 1px purple
 }
 
 .dashboard>* {
@@ -108,7 +119,7 @@ body{
 
 .bottom-half-top {
     display:grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .welcome-container {
@@ -138,16 +149,18 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
-    gap: 12px;
-    margin: auto;
+    gap: 5%;
+    justify-self: start;
+    width: 100%;
 }
 
 .options-container>button{
     height: 2rem;
+    width: max(5rem, auto);
     background-color: #1992d4;
     color:#f9faec;
     border:#1992d4 solid 1px;
-    border-radius: 20px;
+    border-radius: 2rem;
     &:active {
         background-color: #053955;
     }
